@@ -49,7 +49,7 @@ export default class HtMlPageEditorCommandSet extends BaseListViewCommandSet<IHt
       case 'COMMAND_1':
       let fileName: string = event.selectedRows[0].getValueByName("FileLeafRef"); //Test.html,              
       let id: string = event.selectedRows[0].getValueByName("FileRef");
-      let parent = id.substring(0,id.indexOf(fileName));
+      let parent = id.substring(0,id.indexOf("/" + fileName));
       location.search = "id=" + id + "&parent="+parent + "&p=5";
         break;   
       default:
