@@ -1,6 +1,6 @@
 ## html-editor
 
-This is where you include your WebPart documentation.
+Upload the .sppkg file to your tenant and deploy the command set to your list. It will auto append &p=5 to the urls for editing html files.
 
 ### Building the code
 
