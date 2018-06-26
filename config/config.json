@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ht-ml-page-editor-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/htMlPageEditor/HtMlPageEditorCommandSet.js",
+          "manifest": "./src/extensions/htMlPageEditor/HtMlPageEditorCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HtMlPageEditorCommandSetStrings": "lib/extensions/htMlPageEditor/loc/{locale}.js"
+  }
+}
